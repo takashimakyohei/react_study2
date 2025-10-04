@@ -1,4 +1,7 @@
 import './App.css'
+import Loop from './handson/Loop.tsx'
+import handleClick from './handson/Handle.tsx'
+import Handle from "./handson/Handle.tsx";
 
 function App() {
   interface User {
@@ -26,7 +29,9 @@ function App() {
       <div className="App">
         <h1>{u.name}</h1>
         <h2>{u.age}</h2>
-        <h3>{HelloWorld()}</h3>
+        <HelloWorld />
+        <Loop />
+        <Handle />
       </div>
   )
 }
